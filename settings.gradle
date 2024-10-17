@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+}
+
+def homepath = System.properties['user.home']
+include ':FCL'
+project(':FCL').projectDir = new File(homepath + '/Documents/GitHub/FCL/forge20')
+include ':YAWP'
+project(':YAWP').projectDir = new File(homepath + '/Documents/GitHub/Yet-Another-World-Protector/')

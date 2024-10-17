@@ -1,0 +1,9 @@
+{
+    "tcyawp.too_close": "Too close to another claim/region!",
+    "tcyawp.ui.add": "Click to add yourself to this region.",
+    "tcyawp.ui.rem": "Click to remove all members form this region.",
+    "tcyawp.ui.info": "Items necessary to prevent decay:",
+    "tcyawp.ui.expiry": "Decay timer: %s",
+    "tcyawp.ui.button.add": "Add Self",
+    "tcyawp.ui.button.rem": "Remove All"
+}

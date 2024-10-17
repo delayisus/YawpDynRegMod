@@ -1,0 +1,78 @@
+{
+	"_info_": "YAWP Block Main UI",
+	"background": true,
+	"size": [ 176, 158 ],
+	"tabs": {
+		"main": {
+			"texture": "tcyawp:textures/ui/inventory.png",
+			"size": [ 176, 158 ],
+			"pos": [ 0, 0 ],
+			"buttons": [
+				"add", "rem", "info"
+			],
+			"texts": [
+				"expiry"
+			]
+		}
+	},
+	"buttons": {
+		"add": {
+			"size": [ 80, 10 ],
+			"pos": [ 7, 61 ],
+			"uv": [ 7, 61 ],
+			"tooltip": "tcyawp.ui.add",
+			"text": {
+				"size": [ 80, 8 ],
+				"centered": true,
+				"autoscale": true,
+				"translate": true,
+				"value": "tcyawp.ui.button.add"
+			}
+		},
+		"rem": {
+			"size": [ 80, 10 ],
+			"pos": [ 89, 61 ],
+			"uv": [ 89, 61 ],
+			"tooltip": "tcyawp.ui.rem",
+			"text": {
+				"size": [ 80, 8 ],
+				"centered": true,
+				"autoscale": true,
+				"translate": true,
+				"value": "tcyawp.ui.button.rem"
+			}
+		},
+		"info": {
+			"size": [ 10, 10 ],
+			"pos": [ 159, 49 ],
+			"uv": [ 159, 49 ],
+			"tooltip": "tcyawp.ui.info"
+		}
+	},
+	"texts": {
+		"expiry": {
+			"size": [ 150, 8 ],
+			"pos": [ 7, 50 ],
+			"autoscale": true,
+			"color": "#4d4d4d",
+			"value": "..."
+		}
+	},
+	"slots": {
+		"player3x9": {
+			"pos": [ 8, 78 ],
+			"index": 9,
+			"repeat": [ 9, 3 ]
+		},
+		"player1x9": {
+			"pos": [ 8, 134 ],
+			"index": 0,
+			"repeat": [ 9, 1 ]
+		},
+		"blockinv": {
+			"pos": [ 8, 8 ],
+			"repeat": [ 9, 2 ],
+			"player": false
+		}
+	}
+}

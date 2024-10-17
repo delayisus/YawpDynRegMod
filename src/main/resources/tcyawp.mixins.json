@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "yawpblock.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"refmap": "mixins.tcyawmp.refmap.json",
+	"mixins": [
+		"LevelMixin"
+	],
+	"client":[
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8.4"
+}
