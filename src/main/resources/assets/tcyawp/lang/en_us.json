@@ -1,9 +1,9 @@
 {
-    "tcyawp.too_close": "Too close to another claim/region!",
-    "tcyawp.ui.add": "Click to add yourself to this region.",
-    "tcyawp.ui.rem": "Click to remove all members form this region.",
-    "tcyawp.ui.info": "Items necessary to prevent decay:",
-    "tcyawp.ui.expiry": "Decay timer: %s",
-    "tcyawp.ui.button.add": "Add Self",
-    "tcyawp.ui.button.rem": "Remove All"
+    "tcyawp.too_close": "Estás demasiado cerca de otra región",
+    "tcyawp.ui.add": "Click para añadirte a la zona.",
+    "tcyawp.ui.rem": "Click para borrar todos los miembros de la zona.",
+    "tcyawp.ui.info": "Items necesarios para prevenir deterioro:",
+    "tcyawp.ui.expiry": "Tiempo de Deterioro: %s",
+    "tcyawp.ui.button.add": "Añadirme a la zona",
+    "tcyawp.ui.button.rem": "Borrar miembros de la zona"
 }
